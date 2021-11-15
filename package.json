@@ -1,0 +1,15 @@
+{
+  "name": "easybank",
+  "version": "1.0.0",
+  "description": "landing page de um banco virtual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wendel",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.4.1",
+    "firebase-tools": "^9.22.0"
+  }
+}

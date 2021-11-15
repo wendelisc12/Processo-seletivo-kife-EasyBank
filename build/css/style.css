@@ -1,0 +1,204 @@
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: white;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.active::after{
+    content: '' ;
+    position: absolute ;
+    width: 100% ;
+    height: 4px ;
+    left: 0 ;
+    bottom:-46% ;
+    background: linear-gradient(to right,#32d166, #2bb9d0);
+    transition: all ease-in-out .2s;
+}
+
+.center{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title{
+    color: #2c304d;
+    font-weight: 500 !important;
+}
+
+
+.description{
+    color: #97969b !important;
+    font-weight: 400 !important;
+    width: 70% !important;
+}
+
+header li{
+    margin-right: 18px ;
+    font-size: 16px ;
+    font-weight: 500;
+    position: relative ;
+}
+
+header li::after{
+    content: ''  ;
+    position: absolute ;
+    width: 0px ;
+    height: 4px ;
+    left: 50% ;
+    bottom:-46% ;
+    background: linear-gradient(to right,#32d166, #2bb9d0);
+    transition: all ease-in-out .2s;
+}
+  
+header li:hover::after{
+    width: 100%  !important;
+    left: 0  !important;
+}
+
+.botao-convite{
+    background: linear-gradient(to right,#32d166, #2bb9d0)!important;
+    border-radius: 30px !important;
+    color: white !important;
+    width: 170px !important;
+    height: 45px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    transition: all 400ms !important;
+}
+
+.botao-convite:hover{
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(143, 143, 143, 0.514);
+}
+
+main{
+    background-color: #f8f8f8;
+    
+}
+
+#container-main{
+    height: 80vh;
+    width: 90%;    
+}
+
+#titulo{
+    width: 100%;
+}
+
+
+#titulo p{
+    margin: 30px 0;
+}
+
+#principal-main{
+    width: 80%;
+    margin: auto;
+}
+
+#mockup{
+    transition: transform 1.3s;
+    width: 50%;
+    height: 100%;
+    transform: translateX(1000px);
+    background: url('../images/bg-intro-desktop.svg') left;
+}
+
+#mockup img{
+    transform: translateY(-15%);
+}
+
+#razoes-easybank{
+    background-color: #f0f0f0;
+    padding: 100px 0;
+}
+
+#porque-easybank h2{
+    color: #2c304d;
+}
+
+.card-razoes{
+    width: 350px;
+    background: transparent !important;
+    border: none !important;
+    margin-right: 10px;
+}
+
+.card-razoes img{
+    width: 80px !important;
+    margin: 10px;
+}
+
+.card-razoes p{
+    width: 100% !important;
+}
+
+#artigos-blog{
+    padding: 100px 0;
+}
+
+.card-artigos{
+    width: 250px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.card-artigos:hover h4{
+    color: #32d166;
+}
+
+
+.card-artigos h4{
+    font-size: 20px;
+    margin-bottom: 10px ;
+}
+
+.card-artigos h6{
+    font-size: 12px;
+    margin-bottom: 15px ;
+    font-weight: 400;
+    color: #97969b;
+}
+
+.card-artigos p{
+    font-size: 14px !important;
+    color: #5f5f5f;
+}
+
+footer{
+    background-color: #2d314e;
+    padding: 40px;
+}
+
+#redes-sociais i{
+    color: white;
+    font-size: 22px;
+    margin-right: 10px;
+    transition: all 400ms;
+}
+
+#redes-sociais i:hover{
+    color: #32d166;
+}
+
+#navegacao-footer{
+    color: white !important;
+}
+
+#navegacao-footer li{
+    margin: 0 120px 10px 0;
+    font-weight: 300;
+    color: white;
+    transition: 400ms all;
+}
+
+#navegacao-footer li:hover{
+    color:#32d166;
+}

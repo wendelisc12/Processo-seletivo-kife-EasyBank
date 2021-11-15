@@ -1,0 +1,85 @@
+@media (max-width: 992px) {
+
+    #botao-convite{
+        display: none !important;
+    }
+
+    .description{
+        width: 100% !important;
+    }
+
+    .active::after{
+        bottom: 0;
+    }
+
+    header li::after{
+        bottom: 0 ;
+    }
+
+    #container-main{
+        flex-direction: column-reverse;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #mockup{
+        transition: transform 1.3s;
+        width: 100%;
+        transform: translateX(1000px);
+        background: url('../images/bg-intro-desktop.svg') contain center;
+    }
+
+    #mockup img{
+        width: 400px;
+        transform: translateY(0);
+    }
+    #titulo h1{
+        font-size: 3em;
+    }
+
+    #razoes-easybank{
+        text-align: center;
+    }
+
+    #razoes{
+        flex-direction: column;
+    }
+
+    .card-razoes{
+        align-items: center;
+    }
+
+    #artigos{
+        flex-direction: column;
+    }
+
+    .card-artigos{
+        margin-bottom: 20px;
+    }
+
+    #footer-container{
+        flex-direction: column;
+    }
+
+    #redes-container{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #navegacao-footer{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+    }
+
+    #navegacao-footer li{
+        margin-right: 0;
+    }
+
+    #footer-copy{
+        text-align: center;
+    }
+}
